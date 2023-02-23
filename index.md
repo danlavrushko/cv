@@ -1,91 +1,118 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Danylo Lavrushko
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Danylo Lavrushko
+.NET Senior Engineer
 
-<div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<div class="webaddress">
+  <a href="mailto:danylo.lavr@gmail.com">danylo.lavr@gmail.com</a>
+| <a href="https://www.linkedin.com/in/danlavr">linkedin.com/in/danlavr</a>
 </div>
 
+## Summary
 
-## Currently
+10 years of experience in commercial projects, focusing on web backend development.
 
-Standing on the shoulders of giants
+Interested in modern mobile and web projects. Passionate about algorithms and mathematics.
 
-### Specialized in
+In free time enjoy playing with machine learning, would be happy to have a real-world project with AI.
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+## Skills
 
+__Languages__
 
-### Research interests
+C#, F#, Powershell, SQL, Typescript, Python
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+__Frameworks__
 
+ASP.NET Core, Entity Framework Core, IdentityServer4, Angular
+
+__Storage__
+
+PostgreSQL/MS SQL Server, Kafka/RabbitMQ, ElasticSearch
+
+__Deployment/Clouds__
+
+Docker, Kubernetes, Azure
+
+## Experience
+
+### Trade Finance Platform
+`Aug 2019 - now`
+
+High-load banking system with microservice architecture.
+Consisted of more than 10 services built with dotnet, Kotlin and ELK.
+Service containers was orchestrated by Kubernetes hosted on AKS and GKE.
+
+**Responsibilities**
+* implementing new features on both backend and UI
+* discussed and proposed technical architecture decisions
+* working with existing large codebase
+* application support on production
+* mentoring new teammates
+* direct communication with clients
+
+**Technologies**
+
+C#, ASP.NET Core, EF Core, PostgreSQL, MS SQL, gRPC, Kafka, RabbitMQ, Docker, Kubernetes, ELK, Angular, Typescript
+
+### Bookkeeping Web Platform
+`2017 - 2019`
+
+Bookkeeping platform designed specifically for freelancers.
+System do all paperwork, pay taxes, manage invoices and helps freelancer get paid for the work.
+Consists of several independent web applications.
+
+**Responsibilities**
+* developing new features
+* designing OpenID Connect server
+* managing applications in Azure, configuring CI/CD process
+* direct communication with clients
+
+**Technologies**
+
+C#, ASP.NET OWIN, ASP.NET Core, IdentityServer4, EF Core, MS SQL Server, VueJs, Azure, Azure DevOps
+
+### Several Web Applications
+`2015 - 2017`
+
+Worked on multiple web application, both legacy and from scratch
+
+**Responsibilities**
+* implemented new features
+* refactored and fixed performance issues
+* discussed applications design
+* deployed applications to production
+
+**Technologies**
+
+C#, MS SQL Server, EF, NUnit, AngularJs, Xamarin, Azure
+
+### Health Care Application
+`2013 - 2015`
+
+Healthcare hybrid application for managing patient information, documenting visits and progress of patient treatment.
+
+**Technologies**
+
+C#, Objective C, ASP.NET Web API, EF, MS SQL Server, Knockout.js, QUnit, TFS
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+`2008 - 2013`
+__M. Sc. degree in Applied Mathematics__
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+Ivan Franko National University of Lviv
 
-- Sizar
+Department of Applied Mathematics and Informatics
 
-`1667 - death`
-__Trinity College, Cambridge__
+## Languages
 
-- Fellow
+Ukrainian, native
 
-
-
-## Awards
-
-`2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France
-
-
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
-
-
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
+English, B2
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
-
-
+Last updated: Mar 2023 -->

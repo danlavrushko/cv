@@ -53,7 +53,7 @@ table {
 
 body {
 	font: normal normal 400;
-	font-size: 10pt;
+	font-size: 12pt;
 	line-height: 1.35em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Verdana,sans-serif;
@@ -80,6 +80,9 @@ code {
 p code {
 	position: absolute;
 	left: -11%;
+	width: 11%;
+	font-size: 80%;
+	text-align: center;
 }
 
 
@@ -92,11 +95,11 @@ ul {
 }
 
 /*uncomment to get dashes in the list*/
-/*li:before {
+li:before {
 	content: "-";
 	position: relative;
 	left: -0.25em;
-}*/
+}
 
 li {
 	/*second line indent*/
@@ -124,12 +127,14 @@ h1 {
 	line-height: 1em;
 	position: relative;
 	left: 28%;
+	margin-bottom: 0.3em;
 }
 
 h1+p { 
 	/*subtitle*/
 	font-style: italic;
 	font-size: 110%;
+	margin-bottom: 0.5em;
 }
 
 h2 {
@@ -162,16 +167,14 @@ a:hover {
 	color:#39f
 }
 
-#webaddress {
-	margin-top: 1em;
+.webaddress {
 	position: relative;
 	left: 28%;
 	color: #ccc;
 	font-family: Menlo,monospace,sans-serif;
-	font-size: 80%;
 }
 
-#webaddress a {
+.webaddress a {
 	text-decoration: none;
 }
 
@@ -183,12 +186,3 @@ em {
 strong {
 	font-weight: bold;
 }
-
-#ghbutton {
-	display: none;
-	visibility: hidden;
-}
-
-
-
-

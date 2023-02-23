@@ -30,6 +30,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+
+	/* https://stackoverflow.com/a/41736829/2120382 */
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust:100%;
 }
 ol, ul {
 	list-style: none;
@@ -53,7 +57,7 @@ table {
 
 body {
 	font: normal normal 400;
-	font-size: 80%;
+	font-size: 100%;
 	line-height: 1.5em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Verdana,sans-serif;
@@ -64,7 +68,7 @@ body {
 p {
 	position: relative;
 	left: 33%;
-	margin-bottom: 0.7em;
+	margin-bottom: 0.4em;
 	margin-right: 0;
 	width: 65%;
 }
@@ -79,7 +83,10 @@ code {
 
 p code {
 	position: absolute;
-	left: -14%;
+	left: -18%;
+	width: 18%;
+	font-size: 80%;
+	text-align: center;
 }
 
 
@@ -92,11 +99,11 @@ ul {
 }
 
 /*uncomment to get dashes in the list*/
-/*li:before {
+li:before {
 	content: "-";
 	position: relative;
 	left: -0.25em;
-}*/
+}
 
 li {
 	/*second line indent*/
@@ -124,12 +131,14 @@ h1 {
 	line-height: 1em;
 	position: relative;
 	left: 33%;
+	margin-bottom: 0.3em;
 }
 
 h1+p { 
 	/*subtitle*/
 	font-style: italic;
 	font-size: 110%;
+	margin-bottom: 0.5em;
 }
 
 h2 {
@@ -160,16 +169,14 @@ a:hover {
 	color:#39f
 }
 
-#webaddress {
-	margin-top: 1em;
+.webaddress {
 	position: relative;
 	left: 33%;
 	color: #aaa;
 	font-family: Menlo,monospace,sans-serif;
-	font-size: 80%;
 }
 
-#webaddress a {
+.webaddress a {
 	text-decoration: none;
 }
 
@@ -181,12 +188,6 @@ em {
 strong {
 	font-weight: bold;
 }
-
-#address {
-	display: none;
-}
-
-
 
 /*
 @media only screen and (max-width: 480px) {
